@@ -10,6 +10,6 @@ vim.cmd "colorscheme sweet_dark"
 vim.cmd "nnoremap <silent><C-b> :NvimTreeToggle<Return>"
 vim.cmd "hi WinSeparator guifg='#353535'"
 vim.cmd "nnoremap <silent><C-P> :Files<Return>"
-vim.cmd "map <silet><C-F> :Ag<Return>"
+vim.cmd "map <silent><C-F> :Ag<Return>"
 vim.cmd "nnoremap <silent><C-z> :set wrap!<Return>"
 
