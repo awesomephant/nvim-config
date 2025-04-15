@@ -7,6 +7,9 @@ return {
 		view = {
 			width = 22
 		},
+		sync_root_with_cwd = true,
+		reload_on_bufenter = true,
+		respect_buf_cwd = true,
 		filters = { custom = { "^.git$" } },
 		renderer = {
 			indent_markers = {

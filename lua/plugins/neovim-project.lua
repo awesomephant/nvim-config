@@ -2,7 +2,10 @@ return {
   "coffebar/neovim-project",
   opts = {
     projects = { -- define project roots
-      "D:/Projects/*",
+      	"C:/Users/max/AppData/Local/nvim",
+		"D:/Projects/*",
+		"D:/Projects/swr/*",
+		"D:/vvv/www/*/public_html/wp-content/themes/*"
     },
     picker = {
       type = "fzf-lua", -- or "fzf-lua"
