@@ -9,8 +9,8 @@ return {
     			component_separators = { left = '|', right = '|'},
     			section_separators = { left = '▓▒░', right = '░▒▓'},
     			disabled_filetypes = {
-      				statusline = {},
-      				winbar = {},
+    				statusline = {},
+    				winbar = {},
     			},
     			ignore_focus = {},
     			always_divide_middle = true,
@@ -21,7 +21,7 @@ return {
     				tabline = 100,
     				winbar = 100,
     			}
-  		},
+		},
 		sections = {
 				lualine_a = {'mode'},
 				lualine_b = {'branch', 'diff', 'diagnostics'},
