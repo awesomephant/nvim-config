@@ -8,7 +8,7 @@ return {
 		"D:/vvv/www/*/public_html/wp-content/themes/*"
     },
     picker = {
-      type = "fzf-lua", -- or "fzf-lua"
+      type = "fzf-lua", 
     }
   },
   init = function()
@@ -17,7 +17,6 @@ return {
   end,
   dependencies = {
     { "nvim-lua/plenary.nvim" },
-    -- optional picker
     { "ibhagwan/fzf-lua" },
     { "Shatur/neovim-session-manager" },
   },
