@@ -1,3 +1,11 @@
+local function getWords()
+	return tostring(vim.fn.wordcount().words) .. " wds"
+end
+
+local function is_markdown()
+    return vim.bo.filetype == "text" or vim.bo.filetype == "markdown" or vim.bo.filetype == "asciidoc"
+end
+
 return {
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' },
@@ -26,7 +34,7 @@ return {
 				lualine_a = {'mode'},
 				lualine_b = {'branch', 'diff', 'diagnostics'},
 				lualine_c = {'filename'},
-				lualine_x = {'encoding', 'filetype'},
+				lualine_x = {'filetype', {getWords, cond = is_markdown}},	
 				lualine_y = {'progress'},
 				lualine_z = {'location'}
 		},
