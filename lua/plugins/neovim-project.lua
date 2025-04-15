@@ -8,7 +8,15 @@ return {
 		"D:/vvv/www/*/public_html/wp-content/themes/*"
     },
     picker = {
-      type = "fzf-lua", 
+      type = "fzf-lua",
+	  opts = {
+		winopts = {
+			width = 0.4,
+			row = 0,
+			col = 0,
+			border = "single"
+		}	
+	  }
     }
   },
   init = function()
