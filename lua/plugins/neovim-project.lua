@@ -2,7 +2,9 @@ return {
   "coffebar/neovim-project",
   opts = {
     projects = { -- define project roots
-      	"C:/Users/max/AppData/Local/nvim",
+      	"~/Projects/*",
+		"~/OneDrive/Desktop/texts/",
+		"C:/Users/max/AppData/Local/nvim",
 		"D:/Projects/*",
 		"D:/Projects/swr/*",
 		"D:/vvv/www/*/public_html/wp-content/themes/*"
