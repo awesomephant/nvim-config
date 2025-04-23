@@ -3,6 +3,7 @@ return {
   opts = {
     projects = { -- define project roots
       	"~/Projects/*",
+		"~/Projects/swr/*",
 		"~/Local Sites/*/app/public/wp-content/themes/*",
 		"~/OneDrive/Desktop/texts/",
 		"C:/Users/max/AppData/Local/nvim",
