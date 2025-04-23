@@ -6,7 +6,7 @@ vim.cmd "set shiftwidth=4"
 vim.cmd "set tabstop=4"
 vim.cmd "set cmdheight=0"
 vim.cmd "set cursorline"
-vim.cmd "colorscheme sweet_dark"
+vim.cmd "colorscheme simpleblack"
 vim.cmd "hi WinSeparator guifg='#353535'"
 
 vim.cmd "nnoremap <silent><C-b> :NvimTreeToggle<Return>"
