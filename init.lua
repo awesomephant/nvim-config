@@ -16,5 +16,7 @@ vim.cmd "nnoremap <silent><C-P> :lua require'fzf-lua'.files({winopts={width=0.40
 vim.cmd "nnoremap <silent><C-z> :set wrap!<Return>"
 vim.cmd "nmap <C-.> gcc"
 vim.cmd "tnoremap <Esc> <C-\\><C-n>"
+vim.cmd "nmap <F3> i<C-R>=strftime('%Y-%m-%d')<CR><Esc>"
+vim.cmd "imap <F3> <C-R>=strftime('%Y-%m-%d')<CR>"
 
 vim.cmd "command Colors FzfLua colorschemes winopts.width=.15 winopts.row=0 winopts.col=1 winopts.border=single"
